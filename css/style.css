@@ -173,6 +173,13 @@ section:nth-child(even){
     text-align: center;
     padding: 2.5rem;
 }
+.icons-container .icons:hover ,
+.icons-container .icons:hover i,
+.icons-container .icons:hover h3,
+.icons-container .icons:hover p{
+    background: var(--green);
+    color: #fff;
+}
 
 .icons-container .icons i{
     font-size: 4.5rem;
